@@ -1,14 +1,14 @@
 {
-  "name": "vue-toasted",
+  "name": "mucrimme-vue-toasted",
   "description": "Responsive Touch Compatible Toast plugin for VueJS 2+",
   "version": "1.1.28",
-  "author": "Shakeeb Sadikeen <shakee.zats@gmail.com>",
+  "author": "Tl Lab",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shakee93/vue-toasted.git"
+    "url": "git+https://github.com/shakee93/vue-toasted.git"
   },
-  "main": "./dist/vue-toasted.min.js",
+  "main": "./src/js/toast.js",
   "types": "./types/index.d.ts",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
@@ -31,7 +31,6 @@
     "vue-toastr",
     "toastr"
   ],
-  "dependencies": {},
   "devDependencies": {
     "animejs": "^2.2.0",
     "autoprefixer": "^7.2.6",
@@ -58,5 +57,13 @@
     "webpack": "^2.7.0",
     "webpack-bundle-analyzer": "^2.13.1",
     "webpack-dev-server": "^2.11.5"
+  },
+  "bugs": {
+    "url": "https://github.com/shakee93/vue-toasted/issues"
+  },
+  "homepage": "https://github.com/shakee93/vue-toasted#readme",
+  "directories": {
+    "example": "examples",
+    "test": "test"
   }
 }
